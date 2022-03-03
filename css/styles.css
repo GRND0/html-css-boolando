@@ -1,13 +1,19 @@
+/* RESET */
+
 * {
     margin: 0 ;
     padding: 0 ;
     box-sizing: border-box ;
 }
 
+/* COMMON */
+
 body {
     background-color: white ;
     padding: 30px ;
 }
+
+/*STRUTTURA*/
 
 .scaffale {
     background-color: white ;
@@ -22,12 +28,81 @@ body {
     margin: 0 4px ;
 
 }
-
-.card img {
-    width: 100% ;
+.immagine {
+    height: 700px;
+    background-size: contain ;
+    background-repeat: no-repeat ;
 }
 
+.cuore {
+    width: 30px ;
+    height: 30px ;
+    border-radius: 30px ;
+    text-align: center ;
+    line-height: 30px ;
+    background-color: #ffffff ;
+    position: absolute ;
+    top: 20px ;
+    right: 5px ;
+}
+
+.cuore:hover {
+    color: red;
+}
+
+/*PRODOTTI*/
+
+#img1 {
+    background-image: url(../img/1.webp) ;
+}
+
+#img1:hover {
+    background-image: url(../img/1b.webp);
+}
+
+#img2 {
+    background-image: url(../img/2.webp) ;
+}
+
+#img2:hover {
+    background-image: url(../img/2b.webp);
+}
+
+#img3 {
+    background-image: url(../img/3\ 1.webp) ;
+}
+
+#img3:hover {
+    background-image: url(../img/3b\ 1.webp);
+}
+
+#img4 {
+    background-image: url(../img/4.webp);
+}
+
+#img4:hover {
+    background-image: url(../img/4b.webp);
+}
+
+#img5 {
+    background-image: url(../img/5.webp);
+}
+
+#img5:hover {
+    background-image: url(../img/5b.webp);
+}
+
+#img6 {
+    background-image: url(../img/6.webp) ;
+}
+
+#img6:hover {
+    background-image: url(../img/6b.webp);
+}
+
+
 .descrizione {
+ 
     height: 10% ;
     width: 100% ;
 }
@@ -63,9 +138,6 @@ body {
     padding: 4px ;
     color: white ;
     font-weight: bold ;
-
-    
-
 }
 
 .sconto {
@@ -74,5 +146,4 @@ body {
 
 .eco {
     background-color: #00875a ;
-
 }
