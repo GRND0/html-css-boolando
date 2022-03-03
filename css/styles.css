@@ -10,15 +10,13 @@ body {
 }
 
 .scaffale {
-    border: 1px solid black ;
     background-color: white ;
     width: 80% ;
     margin: 0 auto 20px auto ;
 }
 
 .card {
-    
-    border: 1px solid green ;
+    position: relative ;
     display: inline-block ;
     width: calc((100%/3) - 11px) ;
     margin: 0 4px ;
@@ -30,7 +28,51 @@ body {
 }
 
 .descrizione {
-    border: 1px solid red;
-    height: 20% ;
+    height: 10% ;
     width: 100% ;
+}
+
+.brand {
+    display: block ;
+    margin-top: 5px ;
+}
+
+.articolo {
+    display: block ;
+    font-weight: bolder ;
+    text-transform: uppercase ;
+}
+
+.prezzo-scontato {
+    color: red ;
+    font-weight: bold ;
+}
+
+.prezzo {
+    text-decoration: line-through ;
+}
+
+.info {
+    position: absolute ;
+    bottom: 15% ;
+    left: 0 ;
+}
+
+.sconto, .eco {
+    display: inline-block ;
+    padding: 4px ;
+    color: white ;
+    font-weight: bold ;
+
+    
+
+}
+
+.sconto {
+    background-color: #eb0037 ;
+}
+
+.eco {
+    background-color: #00875a ;
+
 }
